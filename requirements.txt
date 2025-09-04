@@ -1,0 +1,6 @@
+gunicorn
+flask
+flask_sqlalchemy
+sqlalchemy
+werkzeug
+psycopg2-binary

@@ -1,0 +1,1048 @@
+2025-09-03 19:01:53,652 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: ola
+2025-09-03 19:01:53,652 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'finalizado' para 'inicio'
+2025-09-03 19:01:53,653 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:01:54,449 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:01:54,451 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:01:54,451 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-03 19:02:04,238 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-03 19:02:04,238 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:06,593 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:06,595 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:10,608 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-03 19:02:10,608 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:14,177 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:14,179 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:14,223 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:15,100 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:15,102 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:15,143 - root - INFO - [ai_service.py:451] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-03 19:02:16,875 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: NeuroPediatra
+2025-09-03 19:02:16,875 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:18,986 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:18,987 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:19,030 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:23,084 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:23,086 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:23,086 - root - INFO - [ai_service.py:654] - IA identificou especialidade 'NeuroPediatra' para mensagem: 'NeuroPediatra'
+2025-09-03 19:02:29,855 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-03 19:02:29,856 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:31,422 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:31,424 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:32,330 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:32,914 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:32,916 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:39,258 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: sim
+2025-09-03 19:02:39,258 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:40,673 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:40,674 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:44,916 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: ok
+2025-09-03 19:02:44,916 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:46,915 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:46,917 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:46,918 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:02:50,913 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:02:50,915 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:02:50,915 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ok'
+2025-09-03 19:03:00,991 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-03 19:03:00,991 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:03:03,102 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:03:03,104 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:03:07,632 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-03 19:03:07,632 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:03:09,709 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:03:09,710 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:03:09,752 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:03:10,629 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:03:10,630 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:03:10,651 - root - INFO - [ai_service.py:451] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-03 19:03:12,387 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: NeuroPediatra
+2025-09-03 19:03:12,387 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:03:17,786 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:03:17,788 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:03:17,831 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:03:19,344 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:03:19,345 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:03:19,345 - root - INFO - [ai_service.py:654] - IA identificou especialidade 'NeuroPediatra' para mensagem: 'NeuroPediatra'
+2025-09-03 19:03:25,053 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-03 19:03:25,053 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:03:26,826 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:03:26,828 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:03:27,774 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:03:28,201 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:03:28,203 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:03:30,983 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: sim
+2025-09-03 19:03:30,983 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:03:33,244 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:03:33,246 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:06:06,162 - app - ERROR - [app.py:875] - Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column pacientes.carteirinha does not exist
+LINE 2: ...tes_telefone, pacientes.email AS pacientes_email, pacientes....
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/app.py", line 686, in api_status
+    total_pacientes = Paciente.query.count()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 3146, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2835, in scalar
+    ret = self.one()
+          ^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2808, in one
+    return self._iter().one()  # type: ignore
+           ^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column pacientes.carteirinha does not exist
+LINE 2: ...tes_telefone, pacientes.email AS pacientes_email, pacientes....
+                                                             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT pacientes.id AS pacientes_id, pacientes.cpf AS pacientes_cpf, pacientes.nome AS pacientes_nome, pacientes.telefone AS pacientes_telefone, pacientes.email AS pacientes_email, pacientes.carteirinha AS pacientes_carteirinha, pacientes.tipo_atendimento AS pacientes_tipo_atendimento, pacientes.criado_em AS pacientes_criado_em 
+FROM pacientes) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-09-03 19:06:20,344 - app - ERROR - [app.py:875] - Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column pacientes.carteirinha does not exist
+LINE 2: ...tes_telefone, pacientes.email AS pacientes_email, pacientes....
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/app.py", line 686, in api_status
+    total_pacientes = Paciente.query.count()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 3146, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2835, in scalar
+    ret = self.one()
+          ^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2808, in one
+    return self._iter().one()  # type: ignore
+           ^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column pacientes.carteirinha does not exist
+LINE 2: ...tes_telefone, pacientes.email AS pacientes_email, pacientes....
+                                                             ^
+
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT pacientes.id AS pacientes_id, pacientes.cpf AS pacientes_cpf, pacientes.nome AS pacientes_nome, pacientes.telefone AS pacientes_telefone, pacientes.email AS pacientes_email, pacientes.carteirinha AS pacientes_carteirinha, pacientes.tipo_atendimento AS pacientes_tipo_atendimento, pacientes.criado_em AS pacientes_criado_em 
+FROM pacientes) AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-09-03 19:09:50,235 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: ola
+2025-09-03 19:09:50,235 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'finalizado' para 'inicio'
+2025-09-03 19:09:50,235 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:09:54,657 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:09:54,659 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:09:54,659 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-03 19:10:03,106 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: ola
+2025-09-03 19:10:03,106 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'aguardando_cpf' para 'inicio'
+2025-09-03 19:10:03,106 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:10:04,089 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:10:04,090 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:10:04,090 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-03 19:10:13,705 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-03 19:10:13,706 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:10:15,510 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:10:15,511 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:18:15,421 - root - INFO - [ai_service.py:39] - Estado atual: inicio, Mensagem: Ola
+2025-09-03 19:18:15,421 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-03 19:18:15,421 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:18:16,504 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:18:16,506 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:18:16,506 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'Ola'
+2025-09-03 19:18:29,507 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 1234567891011
+2025-09-03 19:18:29,507 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:18:31,686 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:18:31,691 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:18:39,851 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 111.753.436-76
+2025-09-03 19:18:39,852 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:18:42,129 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:18:42,131 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:18:59,618 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-03 19:18:59,618 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:19:02,303 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:19:02,304 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:19:02,349 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:19:04,303 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:19:04,305 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:19:04,341 - root - INFO - [ai_service.py:521] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-03 19:19:08,733 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: NeuroPediatra
+2025-09-03 19:19:08,734 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:19:11,514 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:19:11,516 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:19:11,562 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:19:12,643 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:19:12,645 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:19:12,645 - root - INFO - [ai_service.py:724] - IA identificou especialidade 'NeuroPediatra' para mensagem: 'NeuroPediatra'
+2025-09-03 19:19:22,879 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-03 19:19:22,879 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:19:24,982 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:19:24,984 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:19:25,982 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:19:26,605 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:19:26,606 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:19:32,027 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: Sim
+2025-09-03 19:19:32,027 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:19:33,170 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:19:33,171 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:20:15,891 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: Sair
+2025-09-03 19:20:15,891 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:20:18,597 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:20:18,598 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:20:18,599 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:20:20,394 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:20:20,396 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:20:20,396 - root - INFO - [ai_service.py:203] - IA detectou tipo 'fora_escopo' para mensagem: 'Sair'
+2025-09-03 19:21:04,596 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: Obrigado
+2025-09-03 19:21:04,596 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:21:06,462 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:21:06,464 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:21:06,464 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:21:08,739 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:21:08,740 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:21:08,740 - root - INFO - [ai_service.py:203] - IA detectou tipo 'fora_escopo' para mensagem: 'Obrigado'
+2025-09-03 19:21:22,030 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: Cancelar consulta
+2025-09-03 19:21:22,031 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:21:25,515 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:21:25,516 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:21:34,848 - root - INFO - [ai_service.py:39] - Estado atual: cancelamento, Mensagem: 111.753.436-76
+2025-09-03 19:21:34,850 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:21:37,508 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:21:37,510 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:21:48,006 - root - INFO - [ai_service.py:39] - Estado atual: cancelamento, Mensagem: 1
+2025-09-03 19:21:48,007 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:21:49,395 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:21:49,396 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:21:49,485 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:21:50,124 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:21:50,125 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:21:56,078 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: Consultar agendamentos
+2025-09-03 19:21:56,078 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:21:58,345 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:21:58,347 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 19:22:05,698 - root - INFO - [ai_service.py:39] - Estado atual: consulta_agendamentos, Mensagem: 111.753.436-76
+2025-09-03 19:22:05,698 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 19:22:08,531 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 19:22:08,533 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:01:14,287 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Oi
+2025-09-03 20:01:14,287 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'local' para 'inicio'
+2025-09-03 20:01:14,288 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:01:16,757 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:01:16,758 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:01:16,758 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'Oi'
+2025-09-03 20:01:48,208 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-03 20:01:48,208 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:01:50,382 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:01:50,384 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:14:35,942 - root - INFO - [ai_service.py:39] - Estado atual: inicio, Mensagem: ola
+2025-09-03 20:14:35,945 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-03 20:14:35,945 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:14:37,770 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:14:37,771 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:14:37,771 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-03 20:14:51,924 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-03 20:14:51,924 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:14:54,405 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:14:54,407 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:15:14,716 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: joao layon
+2025-09-03 20:15:14,716 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:15:19,289 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:15:19,290 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:15:31,721 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 22/01/2001
+2025-09-03 20:15:31,721 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:15:34,341 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:15:34,342 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:15:41,646 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 22012001
+2025-09-03 20:15:41,646 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:15:44,171 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:15:44,172 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:16:04,543 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 2021/01/22
+2025-09-03 20:16:04,543 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:16:06,964 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:16:06,965 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:19:25,342 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: ola
+2025-09-03 20:19:25,342 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'cadastro' para 'inicio'
+2025-09-03 20:19:25,342 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:19:26,558 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:19:26,559 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:19:26,559 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-03 20:19:36,147 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-03 20:19:36,148 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:19:38,015 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:19:38,017 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:19:44,601 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: joao layon
+2025-09-03 20:19:44,602 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:19:48,056 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:19:48,058 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:21:00,720 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 22/01/2001
+2025-09-03 20:21:00,720 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 20:21:02,937 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 20:21:02,938 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 20:21:02,939 - root - INFO - [ai_service.py:1219] - Validando data: '22/01/2001'
+2025-09-03 20:21:02,939 - root - INFO - [ai_service.py:1223] - Data limpa: '22/01/2001'
+2025-09-03 20:21:02,941 - root - INFO - [ai_service.py:1232] - Data parseada com formato %d/%m/%Y: 2001-01-22
+2025-09-03 20:21:02,941 - root - INFO - [ai_service.py:1246] - Data válida aceita: 2001-01-22
+2025-09-03 23:10:19,569 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: ola
+2025-09-03 23:10:19,570 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'cadastro' para 'inicio'
+2025-09-03 23:10:19,571 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:10:20,735 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:10:20,736 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:10:20,736 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-03 23:10:30,661 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-03 23:10:30,661 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:10:33,217 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:10:33,218 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:10:40,587 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: JOAO LAYON
+2025-09-03 23:10:40,588 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:10:47,939 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:10:47,940 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:10:47,940 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'cadastro' para 'inicio'
+2025-09-03 23:10:47,941 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:10:50,686 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:10:50,688 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:10:50,688 - root - INFO - [ai_service.py:203] - IA detectou tipo 'fora_escopo' para mensagem: 'JOAO LAYON'
+2025-09-03 23:11:06,336 - root - INFO - [ai_service.py:39] - Estado atual: inicio, Mensagem: Oi
+2025-09-03 23:11:06,336 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-03 23:11:06,336 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:11:07,227 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:11:07,229 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:11:07,230 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'Oi'
+2025-09-03 23:11:15,040 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-03 23:11:15,040 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:11:16,300 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:11:16,302 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:11:20,645 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: joao layon
+2025-09-03 23:11:20,646 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:11:22,490 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:11:22,492 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:11:39,011 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 22/01/2001
+2025-09-03 23:11:39,012 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:11:41,351 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:11:41,352 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:11:41,353 - root - INFO - [ai_service.py:1221] - Validando data: '22/01/2001'
+2025-09-03 23:11:41,353 - root - INFO - [ai_service.py:1225] - Data limpa: '22/01/2001'
+2025-09-03 23:11:41,355 - root - INFO - [ai_service.py:1234] - Data parseada com formato %d/%m/%Y: 2001-01-22
+2025-09-03 23:11:41,355 - root - INFO - [ai_service.py:1248] - Data válida aceita: 2001-01-22
+2025-09-03 23:11:41,355 - root - INFO - [ai_service.py:321] - Data armazenada nos dados: 2001-01-22
+2025-09-03 23:11:55,822 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 31971280512
+2025-09-03 23:11:55,822 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:11:58,111 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:11:58,113 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:12:08,519 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: pular
+2025-09-03 23:12:08,519 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:12:11,903 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:12:11,905 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:12:24,664 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 716261623123
+2025-09-03 23:12:24,665 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:12:27,394 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:12:27,395 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:12:40,218 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-03 23:12:40,218 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:12:42,562 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-03 23:12:42,851 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-03 23:12:43,814 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-03 23:12:43,815 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-03 23:12:43,967 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 00:25:15,746 - root - INFO - [ai_service.py:39] - Estado atual: inicio, Mensagem: ola
+2025-09-04 00:25:15,748 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-04 00:25:15,748 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:25:17,367 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:25:17,368 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:25:17,369 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 00:25:27,963 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 00:25:27,963 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:25:30,646 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:25:30,647 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:25:38,198 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: joao layon antunes
+2025-09-04 00:25:38,198 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:25:40,485 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:25:40,486 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:25:48,044 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 22/01/2001
+2025-09-04 00:25:48,044 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:25:52,127 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:25:52,128 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:25:52,128 - root - INFO - [ai_service.py:1221] - Validando data: '22/01/2001'
+2025-09-04 00:25:52,128 - root - INFO - [ai_service.py:1225] - Data limpa: '22/01/2001'
+2025-09-04 00:25:52,130 - root - INFO - [ai_service.py:1234] - Data parseada com formato %d/%m/%Y: 2001-01-22
+2025-09-04 00:25:52,130 - root - INFO - [ai_service.py:1248] - Data válida aceita: 2001-01-22
+2025-09-04 00:25:52,130 - root - INFO - [ai_service.py:321] - Data armazenada nos dados: 2001-01-22
+2025-09-04 00:25:58,970 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 31971280512
+2025-09-04 00:25:58,970 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:26:00,652 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:26:00,654 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:26:12,022 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: joaolayon07@gmail.com
+2025-09-04 00:26:12,022 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:26:14,633 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:26:14,634 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:29:12,967 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 09090909
+2025-09-04 00:29:12,969 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:29:15,430 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:29:15,431 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:29:22,758 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 00:29:22,758 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:29:26,917 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:29:26,918 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:29:27,202 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:29:28,289 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:29:28,290 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:29:28,447 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 00:29:39,703 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Cardiologia
+2025-09-04 00:29:39,703 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:29:41,118 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:29:41,130 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:29:41,415 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:29:41,980 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:29:41,981 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:29:41,981 - root - INFO - [ai_service.py:726] - IA identificou especialidade 'Cardiologia' para mensagem: 'Cardiologia'
+2025-09-04 00:29:47,546 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 5
+2025-09-04 00:29:47,546 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:29:49,768 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:29:49,770 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:29:52,758 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:29:53,616 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:29:53,617 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:30:00,166 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: sim
+2025-09-04 00:30:00,166 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:30:02,192 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:30:02,193 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:30:20,210 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: Consultar agendamentos
+2025-09-04 00:30:20,210 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:30:23,227 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:30:23,228 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:30:30,641 - root - INFO - [ai_service.py:39] - Estado atual: consulta_agendamentos, Mensagem: 11175343676
+2025-09-04 00:30:30,641 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:30:32,574 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:30:32,575 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:30:46,299 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: cancelar
+2025-09-04 00:30:46,300 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:30:48,498 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:30:48,500 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:30:57,194 - root - INFO - [ai_service.py:39] - Estado atual: cancelamento, Mensagem: 11175343676
+2025-09-04 00:30:57,194 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:30:59,748 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:30:59,749 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:31:03,836 - root - INFO - [ai_service.py:39] - Estado atual: cancelamento, Mensagem: 1
+2025-09-04 00:31:03,836 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:31:05,997 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:31:05,999 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 00:31:06,568 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 00:31:07,413 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 00:31:07,414 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:19:10,757 - root - INFO - [ai_service.py:39] - Estado atual: inicio, Mensagem: Ola
+2025-09-04 01:19:10,760 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-04 01:19:10,760 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:19:11,258 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-04 01:19:11,259 - root - WARNING - [ai_service.py:210] - IA temporariamente indisponível: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}. Usando fallback inteligente.
+2025-09-04 01:19:16,127 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 111.753.436-76
+2025-09-04 01:19:16,127 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:19:18,208 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:19:18,209 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:19:24,009 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: Joao layon
+2025-09-04 01:19:24,010 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:19:26,036 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:19:26,038 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:19:38,829 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 22/01/2001
+2025-09-04 01:19:38,829 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:19:41,610 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:19:41,611 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:19:41,612 - root - INFO - [ai_service.py:1305] - Validando data: '22/01/2001'
+2025-09-04 01:19:41,612 - root - INFO - [ai_service.py:1309] - Data limpa: '22/01/2001'
+2025-09-04 01:19:41,614 - root - INFO - [ai_service.py:1318] - Data parseada com formato %d/%m/%Y: 2001-01-22
+2025-09-04 01:19:41,614 - root - INFO - [ai_service.py:1332] - Data válida aceita: 2001-01-22
+2025-09-04 01:19:41,614 - root - INFO - [ai_service.py:321] - Data armazenada nos dados: 2001-01-22
+2025-09-04 01:19:48,300 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 31 99528-1707
+2025-09-04 01:19:48,300 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:19:51,046 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:19:51,047 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:19:55,880 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: Pular
+2025-09-04 01:19:55,881 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:19:57,574 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:19:57,575 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:20:09,690 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 918838292839
+2025-09-04 01:20:09,691 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:20:11,897 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:20:11,899 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:20:19,749 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 01:20:19,749 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:20:22,458 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:20:22,460 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:20:22,682 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:20:23,983 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:20:23,984 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:20:24,098 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 01:20:29,460 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Contagem
+2025-09-04 01:20:29,460 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:20:31,747 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:20:31,749 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:20:31,971 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:20:34,310 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:20:34,311 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:20:34,311 - root - INFO - [ai_service.py:738] - IA identificou especialidade 'não encontrado' para mensagem: 'Contagem'
+2025-09-04 01:24:59,836 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Ola
+2025-09-04 01:24:59,836 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'especialidade' para 'inicio'
+2025-09-04 01:24:59,836 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:25:00,641 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:25:00,643 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:25:00,643 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'Ola'
+2025-09-04 01:25:05,692 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 111.753.436-76
+2025-09-04 01:25:05,693 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:25:07,737 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:25:07,738 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:25:12,033 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 01:25:12,033 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:25:14,024 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:25:14,026 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:25:14,249 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:25:15,326 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:25:15,328 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:25:15,440 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 01:25:23,325 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 01:25:23,326 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:25:26,301 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:25:26,303 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:25:26,526 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:25:27,317 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:25:27,318 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:25:27,318 - root - INFO - [ai_service.py:738] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 01:25:39,419 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-04 01:25:39,419 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:25:41,036 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:25:41,038 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:25:45,956 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:25:46,575 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:25:46,577 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:25:51,139 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: Sim
+2025-09-04 01:25:51,139 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:25:53,721 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:25:53,723 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:26:02,176 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: Consultar agendamentos
+2025-09-04 01:26:02,177 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:26:04,518 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:26:04,519 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:26:12,743 - root - INFO - [ai_service.py:39] - Estado atual: consulta_agendamentos, Mensagem: 111.753.436-76
+2025-09-04 01:26:12,743 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:26:14,982 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:26:14,983 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:27:32,436 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: 148.768.236-76
+2025-09-04 01:27:32,436 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:27:34,500 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:27:34,502 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:27:34,502 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:27:36,671 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:27:36,672 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:27:36,672 - root - INFO - [ai_service.py:203] - IA detectou tipo 'fora_escopo' para mensagem: '148.768.236-76'
+2025-09-04 01:27:44,495 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: Ola
+2025-09-04 01:27:44,495 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'finalizado' para 'inicio'
+2025-09-04 01:27:44,495 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:27:45,200 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:27:45,201 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:27:45,201 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'Ola'
+2025-09-04 01:27:47,381 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: Oi
+2025-09-04 01:27:47,382 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'aguardando_cpf' para 'inicio'
+2025-09-04 01:27:47,382 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:27:47,973 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:27:47,974 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:27:47,974 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'Oi'
+2025-09-04 01:28:07,637 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 14175864829
+2025-09-04 01:28:07,637 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:28:10,324 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:28:10,325 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:28:21,705 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: Janaina
+2025-09-04 01:28:21,705 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:28:27,812 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:28:27,813 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:28:43,026 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 08/09/1998
+2025-09-04 01:28:43,026 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:28:46,653 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:28:46,655 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:28:46,655 - root - INFO - [ai_service.py:1305] - Validando data: '08/09/1998'
+2025-09-04 01:28:46,655 - root - INFO - [ai_service.py:1309] - Data limpa: '08/09/1998'
+2025-09-04 01:28:46,655 - root - INFO - [ai_service.py:1318] - Data parseada com formato %d/%m/%Y: 1998-09-08
+2025-09-04 01:28:46,655 - root - INFO - [ai_service.py:1332] - Data válida aceita: 1998-09-08
+2025-09-04 01:28:46,656 - root - INFO - [ai_service.py:321] - Data armazenada nos dados: 1998-09-08
+2025-09-04 01:28:53,197 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: 31976317444
+2025-09-04 01:28:53,197 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:28:55,517 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:28:55,518 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:29:17,187 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: Janahrodrigues777@gmail.com
+2025-09-04 01:29:17,187 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:29:19,103 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:29:19,105 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:29:27,952 - root - INFO - [ai_service.py:39] - Estado atual: cadastro, Mensagem: Particular
+2025-09-04 01:29:27,952 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:29:30,809 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:29:30,813 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:29:35,732 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 01:29:35,733 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:29:39,304 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:29:39,305 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:29:39,527 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:29:40,792 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:29:40,794 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:29:40,906 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 01:29:45,424 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 01:29:45,425 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:29:49,321 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:29:49,322 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:29:49,545 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:29:50,310 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:29:50,311 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:29:50,312 - root - INFO - [ai_service.py:738] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 01:30:03,046 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-04 01:30:03,046 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:30:04,949 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:30:04,950 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:30:09,840 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:30:10,437 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:30:10,440 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:30:14,245 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: Sim
+2025-09-04 01:30:14,245 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:30:15,373 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:30:15,375 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:49:46,375 - root - INFO - [ai_service.py:39] - Estado atual: inicio, Mensagem: ola
+2025-09-04 01:49:46,375 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-04 01:49:46,375 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:49:47,476 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:49:47,478 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:49:47,478 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 01:49:54,257 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 01:49:54,257 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:49:55,783 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:49:55,785 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:50:00,260 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 01:50:00,261 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:50:02,385 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:50:02,387 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:50:02,611 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:50:03,912 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:50:03,913 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:50:04,029 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 01:50:06,490 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 01:50:06,490 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:50:19,965 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:50:19,966 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:50:20,192 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:50:21,114 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:50:21,115 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:50:21,115 - root - INFO - [ai_service.py:738] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 01:53:43,499 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: ola
+2025-09-04 01:53:43,499 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'horarios' para 'inicio'
+2025-09-04 01:53:43,499 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:53:44,350 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:53:44,352 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:53:44,352 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 01:53:51,147 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 01:53:51,147 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:53:52,310 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:53:52,311 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:53:55,108 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 01:53:55,109 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:53:57,965 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:53:57,967 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:53:58,189 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:54:00,348 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:54:00,349 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:54:00,466 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 01:54:05,289 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 01:54:05,289 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:54:08,625 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:54:08,626 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:54:08,848 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:54:10,566 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:54:10,567 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:54:10,567 - root - INFO - [ai_service.py:747] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 01:54:21,736 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-04 01:54:21,736 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:54:23,210 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:54:23,211 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:54:28,090 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:54:28,702 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:54:28,703 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 01:54:41,502 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: sim
+2025-09-04 01:54:41,502 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 01:54:43,166 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 01:54:43,167 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:03:54,287 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: ola
+2025-09-04 02:03:54,290 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'finalizado' para 'inicio'
+2025-09-04 02:03:54,290 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:03:55,537 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:03:55,539 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:03:55,540 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 02:04:10,263 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:04:10,263 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:04:12,572 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:04:12,573 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:04:52,952 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:04:52,952 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:04:55,000 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:04:55,002 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:04:55,227 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:04:56,008 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:04:56,010 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:04:56,134 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 02:05:08,530 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 02:05:08,530 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:05:11,648 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:05:11,649 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:05:11,874 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:05:12,818 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:05:12,819 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:05:12,819 - root - INFO - [ai_service.py:747] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 02:05:27,923 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-04 02:05:27,923 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:05:30,164 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:05:30,166 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:05:35,107 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:05:35,796 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:05:35,798 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:05:44,103 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: sim
+2025-09-04 02:05:44,103 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:05:45,971 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:05:45,972 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:15:48,400 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: ola
+2025-09-04 02:15:48,400 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'finalizado' para 'inicio'
+2025-09-04 02:15:48,401 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:15:50,001 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:15:50,003 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:15:50,004 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 02:15:55,767 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:15:55,768 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:15:58,523 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:15:58,528 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:16:01,760 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:16:01,761 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:16:04,647 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:16:04,649 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:16:04,877 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:16:06,043 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:16:06,047 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:16:06,169 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 02:16:09,088 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 02:16:09,089 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:16:16,553 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:16:16,554 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:16:16,780 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:16:17,533 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:16:17,534 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:16:17,534 - root - INFO - [ai_service.py:747] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 02:16:26,061 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-04 02:16:26,061 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:16:28,107 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:16:28,109 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:16:33,099 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:16:33,582 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:16:33,584 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:18:23,828 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: sim
+2025-09-04 02:18:23,828 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:18:25,964 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:18:25,965 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:20:33,090 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: ola
+2025-09-04 02:20:33,090 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'finalizado' para 'inicio'
+2025-09-04 02:20:33,090 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:20:34,217 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:20:34,219 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:20:34,220 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 02:20:42,186 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:20:42,187 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:20:44,554 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:20:44,556 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:20:47,920 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:20:47,921 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:20:50,695 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:20:50,697 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:20:50,921 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:20:51,879 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:20:51,883 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:20:52,009 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 02:20:53,983 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 02:20:53,987 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:20:57,271 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:20:57,272 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:20:57,496 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:20:58,357 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:20:58,360 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:20:58,360 - root - INFO - [ai_service.py:747] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 02:21:06,913 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-04 02:21:06,915 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:21:08,883 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:21:08,887 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:21:12,924 - root - ERROR - [ai_service.py:74] - Erro ao processar mensagem: 'dia_semana'
+2025-09-04 02:23:11,335 - root - INFO - [ai_service.py:39] - Estado atual: inicio, Mensagem: olar
+2025-09-04 02:23:11,335 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:23:12,971 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:23:12,974 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:23:12,974 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-04 02:23:12,974 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:23:14,158 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:23:14,159 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:23:14,160 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'olar'
+2025-09-04 02:23:21,772 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:23:21,773 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:23:23,876 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:23:23,878 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:23:28,259 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:23:28,260 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:23:31,692 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:23:31,693 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:23:31,915 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:23:33,296 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:23:33,297 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:23:33,411 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 02:23:36,379 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 02:23:36,380 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:23:39,154 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:23:39,156 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:23:39,379 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:23:40,211 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:23:40,213 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:23:40,213 - root - INFO - [ai_service.py:747] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 02:23:48,134 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-04 02:23:48,134 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:23:49,989 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:23:49,992 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:23:54,001 - root - ERROR - [ai_service.py:74] - Erro ao processar mensagem: 'dia_semana'
+2025-09-04 02:25:25,930 - root - INFO - [ai_service.py:39] - Estado atual: inicio, Mensagem: ola
+2025-09-04 02:25:25,931 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-04 02:25:25,931 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:25:28,255 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:25:28,256 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:25:28,257 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 02:25:34,574 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:25:34,574 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:25:36,334 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:25:36,336 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:25:39,523 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:25:39,523 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:25:41,442 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:25:41,443 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:25:41,665 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:25:43,350 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:25:43,352 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:25:43,466 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 02:25:46,406 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 02:25:46,406 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:25:49,008 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:25:49,010 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:25:49,233 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:25:49,987 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:25:49,989 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:25:49,989 - root - INFO - [ai_service.py:748] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 02:25:56,857 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-04 02:25:56,858 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:25:58,055 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:25:58,057 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:26:02,065 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:26:02,581 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:26:02,583 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:26:07,244 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: sim
+2025-09-04 02:26:07,244 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:26:09,662 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:26:09,663 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:26:27,425 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: ola
+2025-09-04 02:26:27,426 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'finalizado' para 'inicio'
+2025-09-04 02:26:27,426 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:26:28,551 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:26:28,553 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:26:28,553 - root - INFO - [ai_service.py:203] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 02:26:36,031 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:26:36,031 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:26:37,897 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:26:37,898 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:26:40,463 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:26:40,465 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:26:42,262 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:26:42,265 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:26:42,489 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:26:46,314 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:26:46,315 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:26:46,427 - root - INFO - [ai_service.py:523] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 02:26:48,386 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Neuro Pediatra
+2025-09-04 02:26:48,386 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:26:51,075 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:26:51,076 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:26:51,299 - google_genai.models - INFO - [models.py:6513] - AFC is enabled with max remote calls: 10.
+2025-09-04 02:26:52,106 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-04 02:26:52,108 - google_genai.models - INFO - [models.py:6524] - AFC remote call 1 is done.
+2025-09-04 02:26:52,108 - root - INFO - [ai_service.py:748] - IA identificou especialidade 'Neuro Pediatra' para mensagem: 'Neuro Pediatra'
+2025-09-04 02:34:44,140 - root - INFO - [ai_service.py:38] - Estado atual: inicio, Mensagem: ola
+2025-09-04 02:34:44,146 - root - INFO - [ai_service.py:43] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-04 02:34:44,146 - root - WARNING - [ai_service.py:209] - IA temporariamente indisponível: module 'google.generativeai' has no attribute 'generate_content'. Usando fallback inteligente.
+2025-09-04 02:34:51,595 - root - INFO - [ai_service.py:38] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:34:56,316 - root - INFO - [ai_service.py:38] - Estado atual: cadastro, Mensagem: joao layon
+2025-09-04 02:35:02,133 - root - INFO - [ai_service.py:38] - Estado atual: cadastro, Mensagem: 22/01/2001
+2025-09-04 02:35:02,133 - root - INFO - [ai_service.py:1379] - Validando data: '22/01/2001'
+2025-09-04 02:35:02,133 - root - INFO - [ai_service.py:1383] - Data limpa: '22/01/2001'
+2025-09-04 02:35:02,138 - root - INFO - [ai_service.py:1392] - Data parseada com formato %d/%m/%Y: 2001-01-22
+2025-09-04 02:35:02,138 - root - INFO - [ai_service.py:1406] - Data válida aceita: 2001-01-22
+2025-09-04 02:35:02,138 - root - INFO - [ai_service.py:320] - Data armazenada nos dados: 2001-01-22
+2025-09-04 02:35:08,278 - root - INFO - [ai_service.py:38] - Estado atual: cadastro, Mensagem: 31971280512
+2025-09-04 02:35:12,473 - root - INFO - [ai_service.py:38] - Estado atual: cadastro, Mensagem: pular
+2025-09-04 02:35:18,036 - root - INFO - [ai_service.py:38] - Estado atual: cadastro, Mensagem: particular
+2025-09-04 02:35:21,815 - root - INFO - [ai_service.py:38] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:35:22,037 - root - WARNING - [ai_service.py:533] - IA temporariamente indisponível para seleção de local: module 'google.generativeai' has no attribute 'generate_content'. Usando fallback.
+2025-09-04 02:35:22,037 - root - ERROR - [ai_service.py:73] - Erro ao processar mensagem: name 'locais_disponiveis' is not defined
+2025-09-04 02:38:09,675 - root - INFO - [ai_service.py:39] - Estado atual: inicio, Mensagem: ola
+2025-09-04 02:38:09,675 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-04 02:38:11,143 - root - INFO - [ai_service.py:202] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 02:38:19,124 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:38:22,759 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:38:24,885 - root - INFO - [ai_service.py:522] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 02:38:29,274 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Cardiologia
+2025-09-04 02:38:29,975 - root - INFO - [ai_service.py:765] - IA identificou especialidade 'Cardiologia' para mensagem: 'Cardiologia'
+2025-09-04 02:38:39,429 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 1
+2025-09-04 02:38:57,060 - root - INFO - [ai_service.py:39] - Estado atual: confirmacao, Mensagem: sim
+2025-09-04 02:39:07,305 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: Consultar agendamentos
+2025-09-04 02:39:16,786 - root - INFO - [ai_service.py:39] - Estado atual: consulta_agendamentos, Mensagem: 11175343676
+2025-09-04 02:39:23,791 - root - INFO - [ai_service.py:39] - Estado atual: finalizado, Mensagem: agendar
+2025-09-04 02:39:24,259 - root - INFO - [ai_service.py:202] - IA detectou tipo 'agendamento' para mensagem: 'agendar'
+2025-09-04 02:39:30,554 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:39:33,238 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:39:34,023 - root - INFO - [ai_service.py:522] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 02:39:35,759 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: Cardiologia
+2025-09-04 02:39:36,684 - root - INFO - [ai_service.py:765] - IA identificou especialidade 'Cardiologia' para mensagem: 'Cardiologia'
+2025-09-04 02:39:45,801 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: Cancelar consulta
+2025-09-04 02:39:57,255 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: 11175343676
+2025-09-04 02:40:05,418 - root - INFO - [ai_service.py:39] - Estado atual: horarios, Mensagem: ola
+2025-09-04 02:40:05,419 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'horarios' para 'inicio'
+2025-09-04 02:40:05,619 - root - INFO - [ai_service.py:202] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 02:40:07,906 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: Cancelar consulta
+2025-09-04 02:40:15,164 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 02:40:22,138 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Cancelar consulta
+2025-09-04 02:40:22,841 - root - INFO - [ai_service.py:496] - IA não conseguiu identificar local para: 'Cancelar consulta'. Resposta IA: 'não encontrado'
+2025-09-04 02:40:27,262 - root - INFO - [ai_service.py:39] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 02:40:28,091 - root - INFO - [ai_service.py:522] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 02:40:33,596 - root - INFO - [ai_service.py:39] - Estado atual: especialidade, Mensagem: ola
+2025-09-04 02:40:33,596 - root - INFO - [ai_service.py:44] - Saudação detectada, resetando conversa do estado 'especialidade' para 'inicio'
+2025-09-04 02:40:33,779 - root - INFO - [ai_service.py:202] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 02:40:37,727 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: Cancelar consulta
+2025-09-04 02:40:47,996 - root - INFO - [ai_service.py:39] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 03:03:50,074 - root - INFO - [ai_service.py:42] - Estado atual: inicio, Mensagem: ola
+2025-09-04 03:03:50,077 - root - INFO - [ai_service.py:56] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-04 03:03:50,963 - root - INFO - [ai_service.py:242] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 03:03:56,493 - root - INFO - [ai_service.py:42] - Estado atual: aguardando_cpf, Mensagem: 11175343676
+2025-09-04 03:04:02,803 - root - INFO - [ai_service.py:42] - Estado atual: cadastro, Mensagem: joaolayon
+2025-09-04 03:04:11,836 - root - INFO - [ai_service.py:42] - Estado atual: cadastro, Mensagem: 22/01/2001
+2025-09-04 03:04:16,727 - root - INFO - [ai_service.py:1570] - Validando data: '22/01/2001'
+2025-09-04 03:04:16,758 - root - INFO - [ai_service.py:1574] - Data limpa: '22/01/2001'
+2025-09-04 03:04:16,769 - root - INFO - [ai_service.py:1583] - Data parseada com formato %d/%m/%Y: 2001-01-22
+2025-09-04 03:04:16,769 - root - INFO - [ai_service.py:1604] - Data válida aceita: 2001-01-22
+2025-09-04 03:04:16,769 - root - INFO - [ai_service.py:379] - Data armazenada nos dados: 2001-01-22
+2025-09-04 03:04:24,453 - root - INFO - [ai_service.py:42] - Estado atual: cadastro, Mensagem: 31975317444
+2025-09-04 03:04:28,235 - root - INFO - [ai_service.py:42] - Estado atual: cadastro, Mensagem: pular
+2025-09-04 03:04:33,270 - root - INFO - [ai_service.py:42] - Estado atual: cadastro, Mensagem: particular
+2025-09-04 03:04:36,086 - root - INFO - [ai_service.py:42] - Estado atual: local, Mensagem: Belo Horizonte
+2025-09-04 03:04:40,823 - root - INFO - [ai_service.py:604] - IA selecionou local: Belo Horizonte para mensagem: 'Belo Horizonte'
+2025-09-04 03:04:42,473 - root - INFO - [ai_service.py:42] - Estado atual: especialidade, Mensagem: Cardiologia
+2025-09-04 03:04:44,397 - root - INFO - [ai_service.py:877] - IA identificou especialidade 'Cardiologia' para mensagem: 'Cardiologia'
+2025-09-04 03:04:46,798 - root - INFO - [ai_service.py:42] - Estado atual: horarios, Mensagem: 1
+2025-09-04 03:04:53,996 - root - INFO - [ai_service.py:42] - Estado atual: confirmacao, Mensagem: sim
+2025-09-04 03:05:07,974 - root - INFO - [ai_service.py:42] - Estado atual: finalizado, Mensagem: Cancelar consulta
+2025-09-04 03:05:07,978 - root - INFO - [ai_service.py:46] - Cancelamento detectado, mudando estado de 'finalizado' para 'cancelamento'
+2025-09-04 03:05:14,333 - root - INFO - [ai_service.py:42] - Estado atual: cancelamento, Mensagem: 11175343676
+2025-09-04 03:05:21,919 - root - INFO - [ai_service.py:42] - Estado atual: cancelamento, Mensagem: 1
+2025-09-04 03:26:43,027 - SistemaAgendamento - INFO - [app_sqlite.py:523] - Sistema João Layon Ativo: SQLite3 Version
+2025-09-04 03:27:48,988 - SistemaAgendamento - INFO - [app_sqlite.py:523] - Sistema João Layon Ativo: SQLite3 Version
+2025-09-04 03:29:11,977 - root - INFO - [ai_service_sqlite.py:47] - Estado atual: inicio, Mensagem: ola
+2025-09-04 03:29:11,977 - root - INFO - [ai_service_sqlite.py:61] - Saudação detectada, resetando conversa do estado 'inicio' para 'inicio'
+2025-09-04 03:29:12,782 - root - INFO - [ai_service_sqlite.py:239] - IA detectou tipo 'agendamento' para mensagem: 'ola'
+2025-09-04 03:29:21,819 - root - INFO - [ai_service_sqlite.py:47] - Estado atual: aguardando_cpf, Mensagem: 11175343676
